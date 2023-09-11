@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@id/logotipoDiaristas" />
+    <TextView
+        android:text="escolha o tipo de serviço que deseja:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPerfil" />
+    <TextView
+        android:text="Serviços:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+
+    <CheckBox
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chServicos" />
+    <Button
+        android:text="Mensagens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMensagens" />
+
+    <Button
+        android:text="ver perfil cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btIrAoPerfil" />
+    <Button
+        android:text="avaliações"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAvaliacoes" />
+    <Button
+        android:text="Sair"
+        android:layout_width="228.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSair" />
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> 
+    <TextView
+        android:text="Nome cliente:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNomeCliente" />
+    <TextView
+        android:text="data:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtData" />
+
+    <!--<TextView
+        android:text="Horário inicial:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHoraInicio" />
+    <TextView
+        android:text="Horário final:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHoraFim" />
+    <TextView
+        android:text="Região(cidade):"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCidade" />
+    <TextView
+        android:text="Complemento endereço:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtComplemento" />
+    <TextView
+        android:text="Logradouro:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLogradouro" />
+    <TextView
+        android:text="Quantidade de cômodos:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQtdComodos" />
+    <TextView
+        android:text="Cômodo:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtComodo" />
+    <TextView
+        android:text="Serviço desejado:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtServico" />
+
+    -->
+    <TextView
+        android:text="Responder:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResposta" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="112.5dp"
+        android:id="@+id/edtResponderMsg" />
+
+    <Button
+        android:text="RESPONDER"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResponder" />
+</LinearLayout>

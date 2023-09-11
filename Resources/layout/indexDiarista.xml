@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logotipoDiaristas" />
+
+    <TextView
+        android:text="Filtre a Região Administrativa e tipo de serviço:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="escolha a cidade:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/carregaRegiao" />
+
+    <TextView
+        android:text="escolha o serviço que você fará:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/carregaServico" />
+
+    <Button
+        android:text="VER VAGAS  DISPONÍVEIS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDetalhesVaga" />
+
+
+    <Button
+        android:text="SAIR"
+        android:layout_width="103.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout" />
+    <Button
+        android:text="Mensagens"
+        android:layout_width="163.5dp"
+        android:layout_height="46.0dp"
+        android:id="@+id/btVerMsgs"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp" />
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="221.5dp"
+        android:id="@+id/listaVagas" />
+
+
+</LinearLayout>
